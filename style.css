@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Great+Vibes&family=Italianno&family=Lato:ital@1&family=Noto+Sans+Khmer:wght@400;700&family=Noto+Sans:wght@500&family=Noto+Serif+Khmer:wght@500&family=Open+Sans:wght@400;500;600&family=PT+Serif&family=Pacifico&family=Pinyon+Script&family=Playfair+Display&family=Playfair:ital,wght@1,300&family=Poppins:ital,wght@0,400;0,500;1,500&family=Press+Start+2P&family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculator {
+  background-color: rgb(4, 84, 118);
+  padding: 2rem;
+  border: 3px solid rgb(58, 155, 235);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(123, 127, 133);
+}
+.btn-click input {
+  width: 50px;
+  height: 50px;
+  outline: 0;
+  border-radius: 10px;
+  border: none;
+  margin: 7px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 0 7px rgb(2, 74, 151);
+}
+.btn-display-none {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 1rem 0;
+}
+.btn-display-none input{
+    background: none;
+    text-align: end;
+    box-shadow: none;
+    flex: 1;
+    color: rgb(233, 236, 241);
+    font-size: 2rem;
+}
+.eqaul{
+    width:116px !important;
+    background-color: rgb(177, 219, 246);
+}
+
